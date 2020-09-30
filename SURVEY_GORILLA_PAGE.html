@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GORILLA_PAGE</title>
+    <hi style="color:black; text-align:center; font-size:100px"> THE GORILLA PAGE</hi>
+
+    <style>
+        div {
+            background: black;
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            margin: 30px;
+            font-family: "Lucida Console";
+            font-size: 40px;
+            color: green;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hello, this is THE GORILLA PAGE!
+            <br>
+    </div>
+    <div>
+        <img src="GORILLA1.JPG" alt="picture of a GORILLA" width="400">
+            <br>
+    </div>
+        <hi style="color:black; text-align:center; font-size:30px"> Do you want to enroll to the GORILLAS´S SURVEY?</hi>
+            <br><br>
+        <hi style="color:green; text-align:center; font-size:20px">
+            <input type="radio" value="YES" name="color">YES
+        </hi>
+        <hi style="color:red; text-align:center; font-size:20px">
+            <input style="color:red; text-align:center; font-size:20px" type="radio" value="NO" name="color">NO
+        </hi>
+    <div>
+        If you press YES, What is your GORILLA NICK NAME?
+        <br>
+        <input type="text" placeholder="Enter full name" name="full_name">
+    </div>
+    <div>
+        What is the sex of your GORILLA?
+            <br>
+        <input type="radio" value="male" name="sex">Male
+            <br>
+        <input type="radio" value="female" name="sex">Female
+            <br>
+        <input type="radio" value="other" name="sex">Other
+            <br><br>
+    </div>
+    <div>
+        <hi style="color:green; text-align:center; font-size:30px">How old is your GORILLA?</hi>
+        <br>
+           <input name="age" list="ages" placeholder="age">
+        <datalist id="ages">
+            <option value="0-5 years">
+            <option value="5-10 years">
+            <option value="10-15 years">
+            <option value="15-20 years">
+            <option value="20-25 years">
+            <option value="+ 25 years">
+
+        </datalist>
+    </div>
+    <div>Is your gorilla fat? *This is for an adult gorilla</div>
+    <div>
+        <hi style="color:white; text-align:center; font-size:30px">
+           <table>
+        <thead>
+            <tr>
+                <th>Thin </th>
+                <br>
+                <th>Normal </th>
+                <br>
+                <th>Fat </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>140kg </td>
+                <td>140/200kg </td>
+                <td>+200kg </td>
+            </tr>
+
+        </tbody>
+    </table>
+        </hi>
+    </div>
+    <br>
+    <div>
+        Do not hesitate to inform yourself about the survey!
+        <input type="text" placeholder="Enter email" name="email">
+    </div>
+    <div>
+        What would you like to know more about gorillas?
+        <input type="text" name="text">
+        <input type="submit" value="Submit Info">
+    </div>
+    <div>
+        THE GORILLAS´S CREW SAYS GOOD BYE
+    </div>
+</body>
+</html>
+
