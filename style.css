@@ -1,0 +1,16 @@
+h1 {
+            color: pink;
+            text-align: left;
+        }
+h2 {
+            color: purple;
+            text-align: center;
+            font-family: times, serif; font-size:20pt; font-style:italic;
+        }
+h3 {
+            color: yellow;
+            text-align: right;
+            font-family: arial, serif; font-size:40pt; font-style:comic sans;
+            background: silver;
+
+        }
